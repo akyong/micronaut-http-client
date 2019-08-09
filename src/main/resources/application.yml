@@ -10,7 +10,7 @@ micronaut:
           enabled: true
           mapping: /**
           paths: classpath:public
-    codec:
-      json:
-        additionalTypes:
-          - text/javascript
+  codec:
+    json:
+      additionalTypes:
+        - text/javascript
